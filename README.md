@@ -3,5 +3,5 @@ Host a `Don't Starve Together` dedicated server based on this [repo](https://git
 
 ## Setup
 ```sh
-iptables -I INPUT 7 -p udp --sport 10999 --dport 1025:65355 -j ACCEPT
+iptables -I INPUT -p udp --sport 10999 --dport 1025:65355 -j ACCEPT
 ```
